@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=1024, ">
+<title>spred</title>
+<script src="Jquery_ui/jquery-1.2.6.pack.js"></script>
+<script src="Jquery_ui/jquery-ui-1.10.3.custom.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+	background-color: #e0dfdb;
+}
+</style>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".box").hover(
+	  function () {
+			$(this).find(".fade").animate({  
+				opacity: 0.3,
+				
+			},200);},
+	  function () {
+			$(this).find(".fade").animate({   
+				opacity: 0,
+				
+			},200);}
+	);				
+});
+</script>
+
+
+<!--幻燈片  ST-->
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add venobox -->
+<link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="venobox/venobox.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+    /* default settings */
+    $('.venobox').venobox(); 
+
+
+    /* custom settings */
+    $('.venobox_custom').venobox({
+        framewidth: '400px',        // default: ''
+        frameheight: '300px',       // default: ''
+        border: '10px',             // default: '0'
+        bgcolor: '#5dff5e',         // default: '#fff'
+        titleattr: 'data-title',    // default: 'title'
+        numeratio: true,            // default: false
+        infinigall: true            // default: false
+    });
+
+    /* auto-open #firstlink on page load */
+    $("#firstlink").venobox().trigger('click');
+});
+
+
+
+</script>
+
+<!--幻燈片  END-->
+
+</head>
+
+<body>
+
+
+<div style="width:1000px ;height:900px;margin:auto auto;">
+
+
+
+
+
+<!--menu-->
+<div id="menu">
+		<div class="mm"><a href="about.html">ABOUT</a></div>
+    <div style=" float:left;font-size:12px;line-height:13px;">|</div>
+    
+    <div class="mm"><a href="web.html">WEB DESIGN</a></div>
+    <div style=" float:left;font-size:12px;line-height:13px;">|</div>
+    
+  <div class="mm"><a href="graphic.html">GRAPHIC DESIGN</a></div>
+    <div style=" float:left;font-size:12px;line-height:13px;">|</div>
+    
+  <div class="mm"><a href="photo.html">PHOTOGRAPHY</a></div>
+   
+   
+</div>
+<!--menu-->
+
+<img src="images/grap_title.png" width="271" height="23" style=" margin:145px 0 0 357px" />
+
+<div align="center" style="margin:75px 0 0 0">
+
+		<!--01-->
+		<div class="gallery" style="margin-bottom:22px">	
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s13.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_13.jpg) ;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s14.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_14.jpg) ; margin:0 20px;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s15.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_15.jpg) ;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <div class="clear"></div>
+                
+
+			
+		</div>
+
+
+		<!--01-->
+		<div class="gallery" style="margin-bottom:22px">	
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s10.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_10.jpg) ;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s11.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_11.jpg) ; margin:0 20px;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s12.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_12.jpg) ;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <div class="clear"></div>
+                
+
+			
+		</div>
+        
+		<!--01-->
+		<div class="gallery" style="margin-bottom:22px">	
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s9.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_9.jpg) ;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s8.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_8.jpg) ; margin:0 20px;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s7.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_7.jpg) ;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <div class="clear"></div>
+                
+
+			
+		</div>
+        
+		<!--01-->
+		<div class="gallery" style="margin-bottom:22px">	
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s6.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_6.jpg) ;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s5.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_5.jpg) ; margin:0 20px;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s4.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_4.jpg) ;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <div class="clear"></div>
+                
+
+			
+		</div>
+        
+		<!--01-->
+		<div class="gallery" style="margin-bottom:22px">	
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s3.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_3.jpg) ;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s2.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_2.jpg) ; margin:0 20px;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <!--內框之一-->
+            <a class="venobox" data-gall="myGallery" href="images/graphic_s1.jpg">
+                <div class="box" style=" width:304px; height:203px;background: url(images//graphic_1.jpg) ;overflow:hidden; display:inline-block" >
+                    <div class="fade" ></div>
+                </div>
+            </a>
+            <!--內框之一-->
+            
+            <div class="clear"></div>
+                
+
+			
+		</div>
+        
+        
+
+
+
+
+
+</div>
+</div>
+</body>
+</html>
