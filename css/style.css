@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend, 
+input,textarea,p,blockquote,th,td,label{margin:0;padding:0;} 
+
+a,span,p,input,h3,h5,label,textarea 
+{text-decoration:none; font-family:Arial, Helvetica, sans-serif} 
+label{font-size:12px; color:#FFF; width:70px; display:inline-block; vertical-align:top}
+img {
+	border:0;
+	text-align: center;
+} 
+li {margin:0;padding:0;list-style:none; list-style-position:outside; font-family:Verdana, Geneva, sans-serif}
+
+
+/* index */
+#menu{ width:1000px; height:13px; margin-top:20px	}
+.mm{float:left;text-align:center;line-height:13px;width:246px; height:13px;font-family:微軟正黑體 ,Verdana, Geneva, sans-serif;font-size:14px;}
+.mm a{ color:#000 }
+.mm a:hover{ color: #999}
+
+/* web */
+
+.box{
+box-shadow: 2px 2px 9px #8C8C8C; 
+-webkit-box-shadow: 2px 2px 9px #8C8C8C; 
+-moz-box-shadow: 2px 2px 9px #8C8C8C;  }
+
+.fade{width:304px; height:203px; background-color: #FFF;opacity: 0}
+.DD{float:left;width:22px; height:23x; background-image: url(../images/close.png);background-repeat: no-repeat; float:left; margin:0 0 0 10px }/*←圖片感應*/
+.DD a{float:left;width:22px; height:23px;background-image: url(../images/close.png);background-repeat: no-repeat;}
+.DD a:hover{background-image: url(../images/close2.png);background-repeat: no-repeat;}
+
+
+
